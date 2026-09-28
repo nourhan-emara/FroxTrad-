@@ -1,7 +1,7 @@
 // Sections Import
 import Footer from "../components/Footer"
 import CtaSection from "../sections/CtaSection"
-import FeaturesSection from "../sections/featuresSection"
+import FeaturesSection from "../sections/FeaturesSection"
 import HeroSection from "../sections/HeroSection"
 import LogoCarousal from "../sections/LogoCarousal"
 import PricingSection from "../sections/PricingSection"
