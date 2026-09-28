@@ -18,6 +18,10 @@
   src: url(/fonts/CLASHDISPLAY-MEDIUM.OTF);
 }
 
+html, body {
+  overflow-x: hidden; 
+}
+
 .clash-display {
   font-family: "clash01", sans-serif !important;
 }

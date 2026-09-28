@@ -26,6 +26,8 @@ const App = () => {
         };
     }, []);
 
+    
+
     return (
       <div className="text-zinc-100 bg-black text-3xl p-4">
         <NavBar />
