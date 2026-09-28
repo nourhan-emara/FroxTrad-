@@ -18,13 +18,17 @@ function NavBar() {
     }, [])
 
     return (
-        <header className={`fixed cursor-pointer top-3.5 left-1/2 
-                            -translate-x-1/2 z-50 transition-all duration-300 rounded-full 
-                            ${
-                                isScrolled ? "h-14 bg-[#1b1b1b]/20 backdrop-blur-xl border border-white/10 scale-95 w-[90%] max-w-2xl" :
-                                "h-14 bg-[#1b1b1b] w-[95%] max-w-3xl"
-                            }
-                            `}>
+        <header
+            className={`fixed cursor-pointer top-3.5 z-50 transition-all duration-300 rounded-full
+                left-3 right-3 w-auto
+                md:left-1/2 md:right-auto md:-translate-x-1/2
+                ${
+                    isScrolled
+                        ? "h-14 bg-[#1b1b1b]/20 backdrop-blur-xl border border-white/10 scale-95 md:w-[90%] md:max-w-2xl"
+                        : "h-14 bg-[#1b1b1b] md:w-[95%] md:max-w-3xl"
+                }
+            `}
+        >
 
             <div className='mx-auto h-full px-6'>
 

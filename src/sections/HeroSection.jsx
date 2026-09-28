@@ -53,7 +53,7 @@ function HeroSection() {
 
 
     return (
-        <section className='relative container mx-auto px-4 pt-40 pb-20'>
+        <section className='relative container mx-auto pt-40 pb-20'>
 
             <div className="absolute top-[-100px] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-indigo-500/20 blur-[120px] rounded-full z-0" />
 
